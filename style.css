@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    /* background-color: rgb(211, 207, 207); */
+    width: 13rem;
+    /* width: 450px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.nav1{
+    height: 100vh;
+    background-color: rgb(231, 224, 224);
+}
+
+.sidebar nav{
+    font-weight: bold;
+    padding: 2.1rem;
+}
+
+
+.sidebar nav li{
+    font-size: 1.4rem;
+    list-style: none;
+    font-family: cursive;
+    padding: 1.6rem 0;
+}
+
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    width: 90vw;
+    /* background-color: yellow; */
+}
+
+.infocontainer{
+    /* background-color: rgb(27, 231, 119); */
+    height: 60vh;
+    width: 80vw;
+    margin: 8rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    padding: 2.1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-family: serif;
+    font-size: 2.5rem;
+}
+
+.name{
+    font-family: serif;
+    font-size: 3rem;
+    /* font-weight: bold; */
+}
+
+.about{
+    font-size: 2.1rem;
+}
+
+.moreabout{
+    margin-top: 0.7rem;
+    font-size: 1.1rem;
+}
+.buttons{
+    margin-top: 0.5rem;
+}
+.buttons button{
+    padding: 0.5rem 0.9rem;
+    border-radius: 2.9rem;
+    color: white;
+    background-color: dodgerblue;
+    /* font-weight: bold; */
+    font-family: serif;
+    font-size: 2vw;
+    /* margin: 0 3px; */
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: rgba(97, 182, 125, 0.822);
+}
+
+.devpic img{
+    height: 60vh;
+}
+
+
+
+.contactform{
+    padding: 0 2.1rem;
+    padding-top: 3rem;
+}
+ 
+form{
+    margin: 0 0 0 1.5rem;
+}
+
+
+.contactform h1{
+    padding-bottom: 0.8rem;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+.contactform form div{
+    padding: 0.6rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contactform form div input {
+    font-size: 1.1rem;
+    width: 55vw;
+    border-radius: 0.4rem;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 1rem;
+    color: midnightblue;
+    /* margin: 0 1px; */
+}
+.form-label{
+    font-size: 1.2rem;
+}
+
+#isclient{
+    width: auto;
+}
+
+.btn {
+    padding: .4rem 1.1rem;
+    border-radius: 3.1rem;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 0 .1rem;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+
+.btn:hover{
+    background-color: rgba(97, 182, 125, 0.822);
+}
+
+
+
+.blogitem{
+    margin: 0 0 0 2rem;
+}
+
+.blogcontainer h1{
+    font-size: 5vw;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0 1rem;
+}
+
+.blogitem h2{
+    margin: 3px 0;
+    font-family: system-ui;
+}
+.blogitem p{  
+    margin-bottom: 6px;
+    font-family: inherit;
+}
+
+.skillcontainer{
+    padding-top: 1rem;
+    margin: 0 0 0 2rem;
+}
+
+.skillitem{
+    /* display: flex; */
+    margin: 14px 0;
+}
+
+.skill{
+    width: 15rem;
+    height: 0.2rem;
+    background-color: red;
+    border: 2px solid rgb(163, 160, 160);
+}
+
+.intro h2{
+    font-family: cursive;
+    margin: 1.5rem 0 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.intro p{    
+    margin: 0 0 0 2rem;
+    font-family: inherit;
+}
+
+
+.hun100{
+    width: 22rem;
+}
+
+.fifty50{
+    width: 10rem;
+    background-color: aquamarine;
+}
+
+.sev75{
+    width: 12rem;
+    background-color: rgb(47, 91, 209);
+}
+
+.t5{
+    width: 7rem;
+    background-color: aqua;
+}
+
+.sidebargo{
+    transform: translate(-40.1rem, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 3px;
+    left: 1px;
+}
+
+.cross{
+    padding: 9px;
+    margin-left: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ########################################################################## */
+
+
+@media(max-width:912px){
+    
+    .infocontainer{
+        height: 22vw;
+        width: 80vw;
+        margin: 8rem auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+
+.devinfo{
+    padding: 1.1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 1.5rem;
+}
+
+.name{
+    font-size: 1.5rem;
+}
+
+.about{
+    font-size: 1.5rem;
+}
+
+.moreabout{
+    margin-top: 0.3rem;
+    font-size: 1rem;
+}
+
+.devpic img{
+    height: 22vw;
+}
+
+
+.buttons button{
+    padding: 0.5rem 0.9rem;
+    border-radius: 2.9rem;
+    color: white;
+    background-color: dodgerblue;
+    font-family: serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+}
+
+@media(max-width:600px){
+
+
+.sidebar {
+        width: 5.3rem;
+}
+.sidebar nav {
+    padding: 1rem;
+}
+
+.sidebar nav li {
+    font-size: 1rem;
+}
+
+.infocontainer{
+    width: 70vw;
+}
+
+.devpic img{
+    display: none;
+}
+
+
+.skillcontainer{
+    padding-top: 1rem;
+    margin: 0 0 0 1rem;
+}
+
+.skill{
+    margin: 0 20px 0 0;
+}
+}
+
+
+
+
+
+
+
